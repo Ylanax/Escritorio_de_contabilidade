@@ -59,8 +59,8 @@ body{
 }
 
 .cabecalho{
-    background-image: url(imagens/headercopia.jpg);
-    height: 300px;
+    background-color: #274C77;
+    height: 332px;
     background-size: cover;
     text-align: center;
 }
@@ -68,27 +68,106 @@ body{
 .logo-texto1{
     font-family: "Lobster";
     color: white;
-    font-size: 50px;
-    padding-top: 20px;
+    font-size: 96px;
+    padding-top: 64px;
+    text-align: center;
 }
 
 .logo-texto2{
     font-family: "Lobster";
     color: white;
-    font-size: 45px;
+    font-size: 65px;
+    padding-bottom: 76px;
 }
 
 .menu-principal{
-    background-color: white;
-    color: black;
+    background-color: #A3CEF1;
     font-family: "Roboto";
     text-align: center;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.item-menu{
+    color: black;
+    font-family: "Roboto";
+    font-size: 32px;
+    font-weight: bold;
+    text-decoration: none;
 }
 
 .banner{
     height: auto;
     width: 100%;
+}
+
+.titulo{
+    font-family: "Roboto";
+    font-size: 34px;
+    font-weight: bold;
+    text-align: center;
+    background-color: #A3CEF1;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.servicos{
+    padding-top: 74px;
+    padding-bottom: 74px;
+    margin-left: 103px;
+}
+
+.opcoes{
+    font-family: "Roboto";
+    font-weight: Bold;
+    font-size: 40px;
+    padding-top: 108px;
+    padding-bottom: 108px;
+    line-height: 66px;
+}
+
+.fotos{
+    background-color: #274C77;
+    text-align: center;
+}
+
+.foto-empresa{
+    margin-left: 84px;
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+.foto-contabilidade{
+    margin-left: 85px;
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+.foto-tributaria{
+    margin-left: 109px;
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+.contato{
+    background-color: #A3CEF1;
+    text-align: center;
+    font-weight: bold;
+    font-size: 34px;
+    padding-top: 23px;
+    padding-bottom: 23px;
+}
+
+.rotulo{
+    font-weight: bold;
+    font-family: "Roboto";
+    font-size: 30px;
+    color: ;
+    display: block;
+}
+
+.campo-texto{
+    font-size: 16px;
+    color: black;
+    padding: 7px 10px;
 }
