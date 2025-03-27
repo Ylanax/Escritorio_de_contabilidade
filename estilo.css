@@ -111,19 +111,26 @@ body{
     padding-bottom: 10px;
 }
 
-.servicos{
+.conteudo-meio {
+    display: flex;
+    align-items: center;
+}
+
+.foto-servicos{
     padding-top: 74px;
     padding-bottom: 74px;
     margin-left: 103px;
 }
 
 .opcoes{
+    list-style-type: disc;
     font-family: "Roboto";
     font-weight: Bold;
-    font-size: 40px;
+    font-size: 45px;
     padding-top: 108px;
     padding-bottom: 108px;
-    line-height: 66px;
+    line-height: 120px;
+    margin-left: 164px;
 }
 
 .fotos{
@@ -162,7 +169,6 @@ body{
     font-weight: bold;
     font-family: "Roboto";
     font-size: 30px;
-    color: ;
     display: block;
 }
 
@@ -170,4 +176,40 @@ body{
     font-size: 16px;
     color: black;
     padding: 7px 10px;
+}
+
+.grupo-form input, .grupo-form textarea {
+    width: 417px;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+.grupo-form label {
+    margin-bottom: 5px;
+}
+
+.grupo-form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.botao-enviar{
+    font-family: "Roboto";
+    font-size: 25px;
+    font-weight: bold;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #A3CEF1;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }

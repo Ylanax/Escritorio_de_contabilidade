@@ -15,42 +15,49 @@
             <h1 class="logo-texto2">Contabilidade</h1>
         </header>
         <nav class="menu-principal">
-            <a href="#" class="item-menu">HOME -</a> 
-            <a href="#" class="item-menu">SERVIÇOS -</a> 
+            <a href="#" class="item-menu">HOME -</a>
+            <a href="#" class="item-menu">SERVIÇOS -</a>
             <a href="#" class="item-menu">CONTATO</a>
         </nav>
         <img src="imagens/banner.png" alt="imagem meio" class="banner">
-            <h2 class="titulo">Serviços</h2>
-            <img src="imagens/servicos.png" class="servicos">
+        <h2 class="titulo">Serviços</h2>
+        <div class="conteudo-meio">
+            <img src="imagens/servicos.png" class="foto-servicos">
             <div class="lista-servicos">
                 <ol class="opcoes">
-                    <li class="a">Abra sua empresa</li>
+                    <li>Abra sua empresa</li>
                     <li>Contabilidade</li>
                     <li>Consultoria Tributária</li>
                 </ol>
             </div>
-            <div class="fotos">
-                <img src="imagens/servico1.png" alt="empresa" class="foto-empresa">
-                <img src="imagens/servico2.png" alt="contabilidade" class="foto-contabilidade">
-                <img src="imagens/servico3.png" alt="tributaria" class="foto-tributaria">
-            </div>
+        </div>
+        <div class="fotos">
+            <img src="imagens/servico1.png" alt="empresa" class="foto-empresa">
+            <img src="imagens/servico2.png" alt="contabilidade" class="foto-contabilidade">
+            <img src="imagens/servico3.png" alt="tributaria" class="foto-tributaria">
+        </div>
         </div>
         <div class="finalizar">
             <h2 class="contato">Contato</h2>
-            <form class="contato2">
-                <label class="rotulo">Nome</label>
-                <input type="text" class="campo-texto">
-                <label class="rotulo">Email</label>
-                <input type="text" class="campo-texto">
-                <label class="rotulo">Mensagem</label>
-                <input type="text" class="campo-textoM">
-                <button class="botao-enviar">Enviar</button>
+            <form>
+                <div class="formulario">
+                    <div class="grupo-form">
+                        <label class="rotulo">Nome</label>
+                        <input type="text" class="campo-texto">
+                    </div>
+                    <div class="grupo-form">
+                        <label class="rotulo">Email</label>
+                        <input type="text" class="campo-texto">
+                    </div>
+                    <div class="grupo-form">
+                        <label class="rotulo">Mensagem</label>
+                        <textarea id="message" name="message" rows="4"></textarea>
+                    </div>
+                    <button class="botao-enviar">Enviar</button>
+                </div>
             </form>
         </div>
-
-
     </main>
     <script src="app.js"></script>
 </body>
-
 </html>
