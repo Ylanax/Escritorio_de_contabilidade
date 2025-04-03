@@ -40,3 +40,27 @@ function fnMostrarHoraAtual() {
 function fnTrocarTitulo(){
     document.getElementById("logo-texto1").innerText = "Título novo do meu site"
 }
+
+function fnIdiomaPortugues(){
+    document.getElementById("menu1").innerText = "INICIAL"
+    document.getElementById("menu2").innerText = "SERVIÇOS"
+    document.getElementById("menu3").innerText = "CONTATO"
+}
+
+function fnIdiomaIngles(){
+    document.getElementById("menu1").innerText = "HOME"
+    document.getElementById("menu2").innerText = "SERVICES"
+    document.getElementById("menu3").innerText = "CONTACT"
+}
+
+function fnIdiomaItaliano(){
+    document.getElementById("menu1").innerText = "INIZIALE"
+    document.getElementById("menu2").innerText = "SERVIZI"
+    document.getElementById("menu3").innerText = "CONTATTO"
+}
+
+function fnIdiomaAlemao(){
+    document.getElementById("menu1").innerText = "STARTSEITE"
+    document.getElementById("menu2").innerText = "DIENSTLEISTUNGEN"
+    document.getElementById("menu3").innerText = "KONTAKT"
+}
