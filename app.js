@@ -76,3 +76,4 @@ function fnBanner2(){
 function fnBanner3(){
     document.getElementById("banner").src="imagens/banner3.jpg"
 }
+
