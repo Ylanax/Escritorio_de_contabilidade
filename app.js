@@ -64,3 +64,15 @@ function fnIdiomaAlemao(){
     document.getElementById("menu2").innerText = "DIENSTLEISTUNGEN"
     document.getElementById("menu3").innerText = "KONTAKT"
 }
+
+function fnBanner1(){
+    document.getElementById("banner").src="imagens/banner1.jpg"
+}
+
+function fnBanner2(){
+    document.getElementById("banner").src="imagens/banner2.jpg"
+}
+
+function fnBanner3(){
+    document.getElementById("banner").src="imagens/banner3.jpg"
+}
