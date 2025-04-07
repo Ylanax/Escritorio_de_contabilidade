@@ -77,3 +77,6 @@ function fnBanner3(){
     document.getElementById("banner").src="imagens/banner3.jpg"
 }
 
+function fnDestaque1Trocar(){
+    document.getElementById("destaque1").src="imagens/destaque1.png"
+}
